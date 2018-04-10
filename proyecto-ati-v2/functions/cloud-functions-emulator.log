@@ -1,0 +1,2455 @@
+2018-04-09T08:15:01.421Z - info: User function triggered, starting execution
+2018-04-09T08:15:01.426Z - info: helloworld die
+2018-04-09T08:15:01.432Z - info: Execution took 29 ms, finished with status: 'crash'
+2018-04-09T08:15:51.972Z - info: User function triggered, starting execution
+2018-04-09T08:15:51.985Z - info: Execution took 15 ms, user function completed successfully
+2018-04-09T08:17:41.690Z - info: Worker for app closed due to file changes.
+2018-04-09T08:17:41.693Z - info: Worker for app closed due to file changes.
+2018-04-09T09:10:33.636Z - info: User function triggered, starting execution
+2018-04-09T09:10:33.644Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T09:11:17.730Z - info: Worker for app closed due to file changes.
+2018-04-09T09:11:43.384Z - info: User function triggered, starting execution
+2018-04-09T09:11:43.393Z - info: dieeeee
+2018-04-09T09:11:43.400Z - info: Execution took 18 ms, user function completed successfully
+2018-04-09T09:11:51.986Z - info: User function triggered, starting execution
+dieeeee
+2018-04-09T09:11:51.988Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T09:13:34.096Z - info: Worker for app closed due to file changes.
+2018-04-09T09:13:34.180Z - info: Worker for app closed due to file changes.
+2018-04-09T09:13:58.253Z - info: User function triggered, starting execution
+2018-04-09T09:13:58.265Z - info: [Function: hola]
+2018-04-09T09:13:58.275Z - info: Execution took 18 ms, user function completed successfully
+2018-04-09T09:15:07.675Z - info: Worker for app closed due to file changes.
+2018-04-09T09:15:37.848Z - info: User function triggered, starting execution
+2018-04-09T09:15:37.862Z - info: Execution took 17 ms, user function completed successfully
+2018-04-09T09:16:05.552Z - info: User function triggered, starting execution
+2018-04-09T09:16:05.555Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T09:16:23.875Z - info: Worker for app closed due to file changes.
+2018-04-09T09:17:04.186Z - info: User function triggered, starting execution
+2018-04-09T09:17:04.195Z - info: escuchando...
+2018-04-09T09:17:04.202Z - info: Execution took 19 ms, user function completed successfully
+2018-04-09T09:17:41.102Z - info: Worker for app closed due to file changes.
+2018-04-09T09:18:09.575Z - error: C:\Users\Diego\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@google-cloud\functions-emulator\src\supervisor\worker.js:80
+      throw new Error(`No function found with name ${cloudfunction.entryPoint || name}`);
+      ^
+
+Error: No function found with name app
+    at process.on (C:\Users\Diego\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@google-cloud\functions-emulator\src\supervisor\worker.js:80:13)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-09T09:18:09.613Z - error: Function worker crashed with exit code: 1
+2018-04-09T09:22:07.482Z - info: User function triggered, starting execution
+2018-04-09T09:22:07.489Z - info: escuchando...
+2018-04-09T09:22:07.497Z - info: Execution took 18 ms, user function completed successfully
+2018-04-09T09:29:00.176Z - info: Worker for api closed due to file changes.
+2018-04-09T09:31:27.277Z - info: User function triggered, starting execution
+2018-04-09T09:31:27.285Z - info: escuchando...
+2018-04-09T09:31:27.298Z - info: Execution took 20 ms, user function completed successfully
+2018-04-09T09:46:27.905Z - info: User function triggered, starting execution
+2018-04-09T09:46:27.927Z - error: TypeError: lamparasControllers.create is not a function
+    at hola (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:16:25)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:25:5
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T09:46:27.931Z - info: escuchando...
+Execution took 14 ms, user function completed successfully
+2018-04-09T09:46:49.241Z - info: Worker for api closed due to file changes.
+2018-04-09T09:46:49.278Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T09:47:21.390Z - info: User function triggered, starting execution
+2018-04-09T09:47:21.403Z - info: escuchando...
+Execution took 16 ms, user function completed successfully
+2018-04-09T09:48:49.530Z - info: Worker for api closed due to file changes.
+2018-04-09T09:49:37.263Z - info: User function triggered, starting execution
+2018-04-09T09:49:37.267Z - info: escuchando...
+2018-04-09T09:49:37.271Z - info: Execution took 8 ms, user function completed successfully
+2018-04-09T09:54:55.909Z - info: User function triggered, starting execution
+2018-04-09T09:54:55.916Z - info: Execution took 9 ms, user function completed successfully
+2018-04-09T09:55:06.985Z - info: User function triggered, starting execution
+2018-04-09T09:55:06.987Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T09:55:23.727Z - info: Worker for api closed due to file changes.
+2018-04-09T09:55:47.811Z - info: User function triggered, starting execution
+2018-04-09T09:55:47.824Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T09:58:01.930Z - info: Worker for api closed due to file changes.
+2018-04-09T09:58:48.014Z - info: User function triggered, starting execution
+2018-04-09T09:58:48.026Z - info: Execution took 10 ms, user function completed successfully
+2018-04-09T09:59:30.550Z - info: Worker for api closed due to file changes.
+2018-04-09T09:59:56.043Z - info: User function triggered, starting execution
+2018-04-09T09:59:56.051Z - info: Execution took 7 ms, user function completed successfully
+2018-04-09T10:01:16.382Z - info: Worker for api closed due to file changes.
+2018-04-09T10:02:35.259Z - info: User function triggered, starting execution
+2018-04-09T10:02:35.271Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T10:05:29.288Z - info: Worker for api closed due to file changes.
+2018-04-09T10:05:57.079Z - info: User function triggered, starting execution
+2018-04-09T10:05:57.097Z - info: Execution took 17 ms, user function completed successfully
+2018-04-09T10:05:57.101Z - error: ReferenceError: firebase is not defined
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:2:25)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:26:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T10:06:56.594Z - info: Worker for api closed due to file changes.
+2018-04-09T10:06:56.616Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T10:08:35.075Z - info: User function triggered, starting execution
+2018-04-09T10:08:35.080Z - info: dieeeee
+2018-04-09T10:08:35.093Z - info: Execution took 18 ms, user function completed successfully
+2018-04-09T10:10:09.554Z - info: User function triggered, starting execution
+2018-04-09T10:10:09.575Z - info: Execution took 19 ms, user function completed successfully
+2018-04-09T10:10:09.586Z - error: ReferenceError: text is not defined
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:2:17)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:26:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T10:10:51.761Z - info: Worker for api closed due to file changes.
+2018-04-09T10:10:51.814Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T10:11:21.956Z - info: User function triggered, starting execution
+2018-04-09T10:11:21.965Z - info: Execution took 12 ms, user function completed successfully
+2018-04-09T10:11:21.972Z - error: ReferenceError: text is not defined
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:2:17)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:25:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T10:11:33.261Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T10:12:05.089Z - info: User function triggered, starting execution
+2018-04-09T10:12:05.104Z - info: dieeeee
+Execution took 10 ms, user function completed successfully
+2018-04-09T10:12:26.596Z - info: User function triggered, starting execution
+2018-04-09T10:12:26.601Z - info: dieeeee
+Execution took 1 ms, user function completed successfully
+2018-04-09T10:57:42.406Z - info: User function triggered, starting execution
+2018-04-09T10:57:42.416Z - info: dieeeee
+Execution took 7 ms, user function completed successfully
+2018-04-09T11:01:54.370Z - info: Worker for api closed due to file changes.
+2018-04-09T11:02:39.323Z - info: User function triggered, starting execution
+2018-04-09T11:02:39.335Z - info: Execution took 11 ms, user function completed successfully
+2018-04-09T11:02:39.336Z - error: ReferenceError: functions is not defined
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:5:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:28:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T11:03:26.602Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T11:03:46.689Z - info: User function triggered, starting execution
+2018-04-09T11:03:46.704Z - info: Execution took 16 ms, user function completed successfully
+2018-04-09T11:03:46.709Z - error: Error: The default Firebase app already exists. This means you called initializeApp() more than once without providing an app name as the second argument. In most cases you only need to call initializeApp() once. But if you do want to initialize multiple apps, pass a second argument to initializeApp() to give each app a unique name.
+    at FirebaseAppError.FirebaseError [as constructor] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\firebase-admin\lib\utils\error.js:39:28)
+    at FirebaseAppError.PrefixedFirebaseError [as constructor] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\firebase-admin\lib\utils\error.js:85:28)
+    at new FirebaseAppError (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\firebase-admin\lib\utils\error.js:119:28)
+    at FirebaseNamespaceInternals.initializeApp (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\firebase-admin\lib\firebase-namespace.js:72:23)
+    at FirebaseNamespace.initializeApp (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\firebase-admin\lib\firebase-namespace.js:362:30)
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:5:34)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:28:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+2018-04-09T11:09:41.022Z - info: Worker for api closed due to file changes.
+2018-04-09T11:23:43.916Z - info: User function triggered, starting execution
+2018-04-09T11:23:43.923Z - info: diegooo
+Execution took 7 ms, user function completed successfully
+2018-04-09T11:25:37.632Z - info: User function triggered, starting execution
+2018-04-09T11:25:37.644Z - info: Execution took 12 ms, user function completed successfully
+2018-04-09T11:25:37.648Z - error: TypeError: dbRefLamparas.push is not a function
+    at Object.exports.create (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:2:19)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:29:25
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+2018-04-09T11:26:39.257Z - error: Function worker killed by signal: SIGTERM
+2018-04-09T11:27:34.988Z - info: User function triggered, starting execution
+2018-04-09T11:27:35.008Z - info: Execution took 20 ms, user function completed successfully
+2018-04-09T11:27:48.304Z - info: User function triggered, starting execution
+Execution took 2 ms, user function completed successfully
+2018-04-09T22:09:43.626Z - info: User function triggered, starting execution
+2018-04-09T22:09:43.642Z - info: Execution took 19 ms, user function completed successfully
+2018-04-09T22:10:04.603Z - info: User function triggered, starting execution
+2018-04-09T22:10:04.609Z - info: Execution took 5 ms, user function completed successfully
+2018-04-09T22:10:04.855Z - info: User function triggered, starting execution
+2018-04-09T22:10:04.859Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T22:12:21.597Z - info: User function triggered, starting execution
+2018-04-09T22:12:21.612Z - info: Execution took 15 ms, user function completed successfully
+2018-04-09T22:13:31.704Z - info: Worker for api closed due to file changes.
+2018-04-09T22:41:26.707Z - info: User function triggered, starting execution
+2018-04-09T22:41:42.193Z - info: User function triggered, starting execution
+2018-04-09T22:42:02.393Z - info: User function triggered, starting execution
+2018-04-09T22:42:26.697Z - info: Execution took 60009 ms, finished with status: 'timeout'
+2018-04-09T22:42:26.708Z - error: SUPERVISOR clientError { Error: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' } connecting=false, _hadError=false, _handle=null, _parent=null, _host=null, objectMode=false, highWaterMark=16384, head=null, tail=null, length=0, length=0, pipes=null, pipesCount=0, flowing=true, ended=false, endEmitted=false, reading=true, sync=false, needReadable=true, emittedReadable=false, readableListening=false, resumeScheduled=false, destroyed=true, defaultEncoding=utf8, awaitDrain=0, readingMore=false, decoder=null, encoding=null, readable=false, domain=null, end=[function () { [native code] }, function () { [native code] }], finish=function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this.connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  req.handle = this._handle;
+  // node::ShutdownWrap isn't instantiated and attached to the JS instance of
+  // ShutdownWrap above until shutdown() is called. So don't set the init
+  // trigger id until now.
+  setInitTriggerId(this[async_id_symbol]);
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this.destroy(errnoException(err, 'shutdown'));
+}, _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function end() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, drain=[function ondrain() {
+  if (this._httpMessage) this._httpMessage.emit('drain');
+}, function () { [native code] }], timeout=function socketOnTimeout() {
+  var req = this.parser && this.parser.incoming;
+  var reqTimeout = req && !req.complete && req.emit('timeout', this);
+  var res = this._httpMessage;
+  var resTimeout = res && res.emit('timeout', this);
+  var serverTimeout = this.server.emit('timeout', this);
+
+  if (!reqTimeout && !resTimeout && !serverTimeout)
+    this.destroy();
+}, data=function () { [native code] }, close=function () { [native code] }, resume=function onSocketResume() {
+  // It may seem that the socket is resumed, but this is an enemy's trick to
+  // deceive us! `resume` is emitted asynchronously, and may be called from
+  // `incoming.readStart()`. Stop the socket again here, just to preserve the
+  // state.
+  //
+  // We don't care about stream semantics for the consumed socket anyway.
+  if (this._paused) {
+    this.pause();
+    return;
+  }
+
+  if (this._handle && !this._handle.reading) {
+    this._handle.reading = true;
+    this._handle.readStart();
+  }
+}, pause=function onSocketPause() {
+  if (this._handle && this._handle.reading) {
+    this._handle.reading = false;
+    this._handle.readStop();
+  }
+}, error=() => {}, _eventsCount=10, _maxListeners=undefined, objectMode=false, highWaterMark=16384, finalCalled=false, needDrain=false, ending=false, ended=false, finished=false, destroyed=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=false, bufferProcessing=false, onwrite=function () { [native code] }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=false, errorEmitted=true, bufferedRequestCount=0, next=null, entry=null, finish=function () { [native code] }, entry=null, finish=function () { [native code] }, writable=false, allowHalfOpen=true, _bytesDispatched=322, _sockname=null, _pendingData=null, _pendingEncoding=, domain=null, request=function (req, res, next) {
+    app.handle(req, res, next);
+  }, connection=function connectionListener(socket) {
+  debug('SERVER new http connection');
+
+  httpSocketSetup(socket);
+
+  // Ensure that the server property of the socket is correctly set.
+  // See https://github.com/nodejs/node/issues/13435
+  if (socket.server === null)
+    socket.server = this;
+
+  // If the user has added a listener to the server,
+  // request, or response, then it's their responsibility.
+  // otherwise, destroy on timeout by default
+  if (this.timeout)
+    socket.setTimeout(this.timeout);
+  socket.on('timeout', socketOnTimeout);
+
+  var parser = parsers.alloc();
+  parser.reinitialize(HTTPParser.REQUEST);
+  parser.socket = socket;
+  socket.parser = parser;
+  parser.incoming = null;
+
+  // Propagate headers limit from server instance to parser
+  if (typeof this.maxHeadersCount === 'number') {
+    parser.maxHeaderPairs = this.maxHeadersCount << 1;
+  } else {
+    // Set default value because parser may be reused from FreeList
+    parser.maxHeaderPairs = 2000;
+  }
+
+  var state = {
+    onData: null,
+    onEnd: null,
+    onClose: null,
+    onDrain: null,
+    outgoing: [],
+    incoming: [],
+    // `outgoingData` is an approximate amount of bytes queued through all
+    // inactive responses. If more data than the high watermark is queued - we
+    // need to pause TCP socket/HTTP parser, and wait until the data will be
+    // sent to the client.
+    outgoingData: 0,
+    keepAliveTimeoutSet: false
+  };
+  state.onData = socketOnData.bind(undefined, this, socket, parser, state);
+  state.onEnd = socketOnEnd.bind(undefined, this, socket, parser, state);
+  state.onClose = socketOnClose.bind(undefined, socket, state);
+  state.onDrain = socketOnDrain.bind(undefined, socket, state);
+  socket.on('data', state.onData);
+  socket.on('error', socketOnError);
+  socket.on('end', state.onEnd);
+  socket.on('close', state.onClose);
+  socket.on('drain', state.onDrain);
+  parser.onIncoming = parserOnIncoming.bind(undefined, this, socket, state);
+
+  // We are consuming socket, so it won't get any actual data
+  socket.on('resume', onSocketResume);
+  socket.on('pause', onSocketPause);
+
+  // Override on to unconsume on `data`, `readable` listeners
+  socket.on = socketOnWrap;
+
+  // We only consume the socket if it has never been consumed before.
+  var external = socket._handle._externalStream;
+  if (!socket._handle._consumed && external) {
+    parser._consumed = true;
+    socket._handle._consumed = true;
+    parser.consume(external);
+  }
+  parser[kOnExecute] =
+    onParserExecute.bind(undefined, this, socket, parser, state);
+
+  socket._paused = false;
+}, listening=() => {
+        logger.debug(`Supervisor listening at ${this._server.address().address}:${this._server.address().port}.`);
+      }, error=[(err) => {
+        logger.error('SUPERVISOR error', err);
+      }, (err) => {
+        if (err.code === 'EADDRINUSE') {
+          logger.error(`${name} (${this.config[name]}) is already in use`);
+        } else {
+          logger.error(err);
+        }
+      }], clientError=(err, socket) => {
+        logger.error('SUPERVISOR clientError', err, socket);
+      }, _eventsCount=5, _maxListeners=undefined, _connections=2, reading=false, $ref=$["server"], onread=null, onconnection=function onconnection(err, clientHandle) {
+  var handle = this;
+  var self = handle.owner;
+
+  debug('onconnection');
+
+  if (err) {
+    self.emit('error', errnoException(err, 'accept'));
+    return;
+  }
+
+  if (self.maxConnections && self._connections >= self.maxConnections) {
+    clientHandle.close();
+    return;
+  }
+
+  var socket = new Socket({
+    handle: clientHandle,
+    allowHalfOpen: self.allowHalfOpen,
+    pauseOnCreate: self.pauseOnConnect
+  });
+  socket.readable = socket.writable = true;
+
+
+  self._connections++;
+  socket.server = self;
+  socket._server = self;
+
+  DTRACE_NET_SERVER_CONNECTION(socket);
+  ;
+  COUNTER_NET_SERVER_CONNECTION(socket);
+  self.emit('connection', socket);
+}, writeQueueSize=0, _usingSlaves=false, _slaves=[], _unref=false, allowHalfOpen=true, pauseOnConnect=false, httpAllowHalfOpen=false, timeout=120000, keepAliveTimeout=5000, _pendingResponseData=0, maxHeadersCount=null, _connectionKey=4:127.0.0.1:5001, $ref=$["server"], _idleTimeout=-1, _idleNext=null, _idlePrev=null, _idleStart=77384, _destroyed=false, 0=function parserOnHeaders(headers, url) {
+  // Once we exceeded headers limit - stop collecting them
+  if (this.maxHeaderPairs <= 0 ||
+      this._headers.length < this.maxHeaderPairs) {
+    this._headers = this._headers.concat(headers);
+  }
+  this._url += url;
+}, 1=function parserOnHeadersComplete(versionMajor, versionMinor, headers, method,
+                                 url, statusCode, statusMessage, upgrade,
+                                 shouldKeepAlive) {
+  var parser = this;
+
+  if (!headers) {
+    headers = parser._headers;
+    parser._headers = [];
+  }
+
+  if (!url) {
+    url = parser._url;
+    parser._url = '';
+  }
+
+  parser.incoming = new IncomingMessage(parser.socket);
+  parser.incoming.httpVersionMajor = versionMajor;
+  parser.incoming.httpVersionMinor = versionMinor;
+  parser.incoming.httpVersion = `${versionMajor}.${versionMinor}`;
+  parser.incoming.url = url;
+
+  var n = headers.length;
+
+  // If parser.maxHeaderPairs <= 0 assume that there's no limit.
+  if (parser.maxHeaderPairs > 0)
+    n = Math.min(n, parser.maxHeaderPairs);
+
+  parser.incoming._addHeaderLines(headers, n);
+
+  if (typeof method === 'number') {
+    // server only
+    parser.incoming.method = methods[method];
+  } else {
+    // client only
+    parser.incoming.statusCode = statusCode;
+    parser.incoming.statusMessage = statusMessage;
+  }
+
+  if (upgrade && parser.outgoing !== null && !parser.outgoing.upgrading) {
+    // The client made non-upgrade request, and server is just advertising
+    // supported protocols.
+    //
+    // See RFC7230 Section 6.7
+    upgrade = false;
+  }
+
+  parser.incoming.upgrade = upgrade;
+
+  var skipBody = 0; // response to HEAD or CONNECT
+
+  if (!upgrade) {
+    // For upgraded connections and CONNECT method request, we'll emit this
+    // after parser.execute so that we can capture the first part of the new
+    // protocol.
+    skipBody = parser.onIncoming(parser.incoming, shouldKeepAlive);
+  }
+
+  if (typeof skipBody !== 'number')
+    return skipBody ? 1 : 0;
+  else
+    return skipBody;
+}, 2=function parserOnBody(b, start, len) {
+  var parser = this;
+  var stream = parser.incoming;
+
+  // if the stream has already been removed, then drop it.
+  if (!stream)
+    return;
+
+  var socket = stream.socket;
+
+  // pretend this was the result of a stream._read call.
+  if (len > 0 && !stream._dumped) {
+    var slice = b.slice(start, start + len);
+    var ret = stream.push(slice);
+    if (!ret)
+      readStop(socket);
+  }
+}, 3=function parserOnMessageComplete() {
+  var parser = this;
+  var stream = parser.incoming;
+
+  if (stream) {
+    stream.complete = true;
+    // Emit any trailing headers.
+    var headers = parser._headers;
+    if (headers) {
+      parser.incoming._addHeaderLines(headers, headers.length);
+      parser._headers = [];
+      parser._url = '';
+    }
+
+    // For emit end event
+    stream.push(null);
+  }
+
+  // force to read the next incoming message
+  readStart(parser.socket);
+}, 4=function () { [native code] }, _headers=[], _url=, _consumed=true, $ref=$, objectMode=false, highWaterMark=16384, head=null, tail=null, length=0, length=0, pipes=null, pipesCount=0, flowing=false, ended=true, endEmitted=true, reading=false, sync=true, needReadable=false, emittedReadable=false, readableListening=false, resumeScheduled=false, destroyed=false, defaultEncoding=utf8, awaitDrain=0, readingMore=false, decoder=null, encoding=null, readable=false, domain=null, aborted=function () {
+      proxyReq.abort();
+    }, error=function proxyError(err) {
+        if (req.socket.destroyed && err.code === 'ECONNRESET') {
+          server.emit('econnreset', err, req, res, url);
+          return proxyReq.abort();
+        }
+
+        if (clb) {
+          clb(err, req, res, url);
+        } else {
+          server.emit('error', err, req, res, url);
+        }
+      }, _eventsCount=2, _maxListeners=undefined, $ref=$, $ref=$, httpVersionMajor=1, httpVersionMinor=1, httpVersion=1.1, complete=true, x-forwarded-host=localhost:5000, x-original-url=/helloworld, pragma=no-cache, cache-control=no-cache, no-store, host=localhost:5001, connection=keep-alive, upgrade-insecure-requests=1, user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36, accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8, accept-encoding=gzip, deflate, br, accept-language=es-419,es;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6, rawHeaders=[X-Forwarded-Host, localhost:5000, X-Original-Url, /helloworld, Pragma, no-cache, Cache-Control, no-cache, no-store, host, localhost:5001, connection, keep-alive, upgrade-insecure-requests, 1, user-agent, Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36, accept, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8, accept-encoding, gzip, deflate, br, accept-language, es-419,es;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6], , rawTrailers=[], upgrade=false, url=/proyecto-ati-v2/us-central1/api/helloworld, method=GET, statusCode=null, statusMessage=null, $ref=$, _consuming=true, _dumped=false, next=function next(err) {
+    var layerError = err === 'route'
+      ? null
+      : err;
+
+    // remove added slash
+    if (slashAdded) {
+      req.url = req.url.substr(1);
+      slashAdded = false;
+    }
+
+    // restore altered req.url
+    if (removed.length !== 0) {
+      req.baseUrl = parentUrl;
+      req.url = protohost + removed + req.url.substr(protohost.length);
+      removed = '';
+    }
+
+    // signal to exit router
+    if (layerError === 'router') {
+      setImmediate(done, null)
+      return
+    }
+
+    // no more matching layers
+    if (idx >= stack.length) {
+      setImmediate(done, layerError);
+      return;
+    }
+
+    // get pathname of request
+    var path = getPathname(req);
+
+    if (path == null) {
+      return done(layerError);
+    }
+
+    // find next matching layer
+    var layer;
+    var match;
+    var route;
+
+    while (match !== true && idx < stack.length) {
+      layer = stack[idx++];
+      match = matchLayer(layer, path);
+      route = layer.route;
+
+      if (typeof match !== 'boolean') {
+        // hold on to layerError
+        layerError = layerError || match;
+      }
+
+      if (match !== true) {
+        continue;
+      }
+
+      if (!route) {
+        // process non-route handlers normally
+        continue;
+      }
+
+      if (layerError) {
+        // routes do not match with a pending error
+        match = false;
+        continue;
+      }
+
+      var method = req.method;
+      var has_method = route._handles_method(method);
+
+      // build up automatic options response
+      if (!has_method && method === 'OPTIONS') {
+        appendMethods(options, route._options());
+      }
+
+      // don't even bother matching route
+      if (!has_method && method !== 'HEAD') {
+        match = false;
+        continue;
+      }
+    }
+
+    // no match
+    if (match !== true) {
+      return done(layerError);
+    }
+
+    // store route for dispatch on change
+    if (route) {
+      req.route = route;
+    }
+
+    // Capture one-time layer values
+    req.params = self.mergeParams
+      ? mergeParams(layer.params, parentParams)
+      : layer.params;
+    var layerPath = layer.path;
+
+    // this should be done for the layer
+    self.process_params(layer, paramcalled, req, res, function (err) {
+      if (err) {
+        return next(layerError || err);
+      }
+
+      if (route) {
+        return layer.handle_request(req, res, next);
+      }
+
+      trim_prefix(layer, layerError, layerPath, path);
+    });
+  }, baseUrl=, originalUrl=/proyecto-ati-v2/us-central1/api/helloworld, protocol=null, slashes=null, auth=null, host=null, port=null, hostname=null, hash=null, search=null, query=null, pathname=/proyecto-ati-v2/us-central1/api/helloworld, path=/proyecto-ati-v2/us-central1/api/helloworld, href=/proyecto-ati-v2/us-central1/api/helloworld, _raw=/proyecto-ati-v2/us-central1/api/helloworld, , , domain=null, finish=function () { [native code] }, _eventsCount=1, _maxListeners=undefined, output=[], outputEncodings=[], outputCallbacks=[], outputSize=0, writable=true, _last=false, upgrading=false, chunkedEncoding=false, shouldKeepAlive=true, useChunkedEncodingByDefault=true, sendDate=true, _removedConnection=false, _removedContLen=false, _removedTE=false, _contentLength=91, _hasBody=true, _trailer=, finished=true, _headerSent=true, socket=null, connection=null, _header=HTTP/1.1 500 Internal Server Error
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 91
+ETag: W/"5b-iGspZwrtSPKK7Ipjt62rruw4psA"
+Date: Mon, 09 Apr 2018 22:42:26 GMT
+Connection: keep-alive
+
+, _onPendingData=function () { [native code] }, _sent100=false, _expect_continue=false, $ref=$["parser"]["incoming"], , statusCode=500, statusMessage=Internal Server Error, functionName=projects/proyecto-ati-v2/locations/us-central1/functions/api, functionStart=1523313686688, _called=true, _idleTimeout=60000, _idlePrev=null, _idleNext=null, _idleStart=17374, _onTimeout=() => {
+          try {
+            this.closeWorker(req.functionName);
+            logger.info(`Execution took ${Date.now() - req.functionStart} ms, finished with status: 'timeout'`);
+
+            res
+              .status(500)
+              .json({
+                error: {
+                  code: 500,
+                  status: 'INTERNAL',
+                  message: 'function execution attempt timed out'
+                }
+              })
+              .end();
+          } catch (err) {
+            logger.error('Something went wrong with the function timeout!');
+            logger.error(err);
+          }
+        }, _timerArgs=undefined, _repeat=null, _destroyed=false, read=function (n) {
+  debug('read', n);
+  n = parseInt(n, 10);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (n !== 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  } else if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+    // If _read pushed data synchronously, then `reading` will be false,
+    // and we need to re-evaluate how much data we can return to the user.
+    if (!state.reading)
+      n = howMuchToRead(nOrig, state);
+  }
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (ret === null) {
+    state.needReadable = true;
+    n = 0;
+  } else {
+    state.length -= n;
+  }
+
+  if (state.length === 0) {
+    // If we have nothing in the buffer, then we want to know
+    // as soon as we *do* get something into the buffer.
+    if (!state.ended)
+      state.needReadable = true;
+
+    // If we tried to read() past the EOF, then emit end on the next tick.
+    if (nOrig !== n && state.ended)
+      endReadable(this);
+  }
+
+  if (ret !== null)
+    this.emit('data', ret);
+
+  return ret;
+}, outgoing=null, maxHeaderPairs=2000, onIncoming=function () { [native code] }, on=function socketOnWrap(ev, fn) {
+  var res = net.Socket.prototype.on.call(this, ev, fn);
+  if (!this.parser) {
+    this.on = net.Socket.prototype.on;
+    return res;
+  }
+
+  if (ev === 'data' || ev === 'readable')
+    unconsume(this.parser, this);
+
+  return res;
+}, _paused=false, read=function (n) {
+  debug('read', n);
+  n = parseInt(n, 10);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (n !== 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  } else if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+    // If _read pushed data synchronously, then `reading` will be false,
+    // and we need to re-evaluate how much data we can return to the user.
+    if (!state.reading)
+      n = howMuchToRead(nOrig, state);
+  }
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (ret === null) {
+    state.needReadable = true;
+    n = 0;
+  } else {
+    state.length -= n;
+  }
+
+  if (state.length === 0) {
+    // If we have nothing in the buffer, then we want to know
+    // as soon as we *do* get something into the buffer.
+    if (!state.ended)
+      state.needReadable = true;
+
+    // If we tried to read() past the EOF, then emit end on the next tick.
+    if (nOrig !== n && state.ended)
+      endReadable(this);
+  }
+
+  if (ret !== null)
+    this.emit('data', ret);
+
+  return ret;
+}, _consuming=true, _httpMessage=null
+2018-04-09T22:42:26.866Z - info: Execution took 44678 ms, finished with status: 'crash'
+2018-04-09T22:42:26.868Z - info: Execution took 24480 ms, finished with status: 'crash'
+2018-04-09T22:43:47.075Z - info: User function triggered, starting execution
+2018-04-09T22:44:47.058Z - info: Execution took 60016 ms, finished with status: 'timeout'
+2018-04-09T22:48:11.445Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:39
+    create: create
+            ^
+
+ReferenceError: create is not defined
+    at Object.<anonymous> (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:39:13)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:5:29)
+    at Module._compile (module.js:635:30)
+2018-04-09T22:48:11.526Z - error: Function worker crashed with exit code: 1
+2018-04-09T22:50:47.450Z - info: User function triggered, starting execution
+2018-04-09T22:50:47.471Z - info: Execution took 22 ms, user function completed successfully
+2018-04-09T22:51:35.596Z - info: Worker for api closed due to file changes.
+2018-04-09T22:52:25.237Z - info: User function triggered, starting execution
+2018-04-09T22:52:25.260Z - info: Execution took 20 ms, user function completed successfully
+2018-04-09T22:52:37.462Z - info: User function triggered, starting execution
+2018-04-09T22:52:37.465Z - info: Execution took 2 ms, user function completed successfully
+2018-04-09T22:56:30.960Z - info: User function triggered, starting execution
+2018-04-09T22:56:30.978Z - info: Execution took 17 ms, user function completed successfully
+2018-04-09T22:57:00.714Z - info: User function triggered, starting execution
+2018-04-09T22:57:00.718Z - info: Execution took 4 ms, user function completed successfully
+2018-04-09T22:58:34.817Z - info: User function triggered, starting execution
+2018-04-09T22:58:34.819Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T22:59:52.990Z - info: Worker for api closed due to file changes.
+2018-04-09T23:02:34.397Z - info: User function triggered, starting execution
+2018-04-09T23:02:34.423Z - info: Execution took 27 ms, user function completed successfully
+2018-04-09T23:02:58.191Z - info: User function triggered, starting execution
+2018-04-09T23:02:58.196Z - info: Execution took 3 ms, user function completed successfully
+2018-04-09T23:03:50.858Z - info: User function triggered, starting execution
+2018-04-09T23:03:50.859Z - info: Execution took 1 ms, user function completed successfully
+2018-04-09T23:05:08.068Z - info: User function triggered, starting execution
+2018-04-09T23:05:08.084Z - info: Execution took 8 ms, user function completed successfully
+2018-04-10T02:42:06.750Z - info: User function triggered, starting execution
+2018-04-10T02:42:06.757Z - info: Execution took 7 ms, user function completed successfully
+2018-04-10T02:42:21.915Z - info: User function triggered, starting execution
+2018-04-10T02:42:21.922Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T02:46:20.435Z - info: Worker for api closed due to file changes.
+2018-04-10T02:47:12.557Z - info: User function triggered, starting execution
+Execution took 7 ms, user function completed successfully
+2018-04-10T02:47:12.562Z - error: ReferenceError: lamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:17:44
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T02:51:35.667Z - info: Worker for api closed due to file changes.
+2018-04-10T02:51:35.684Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T02:52:07.465Z - info: User function triggered, starting execution
+2018-04-10T02:52:07.483Z - error: ReferenceError: lamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:17:44
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T02:52:07.487Z - info: Execution took 14 ms, user function completed successfully
+2018-04-10T02:53:27.807Z - info: Worker for api closed due to file changes.
+2018-04-10T02:53:27.830Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T02:53:52.922Z - info: User function triggered, starting execution
+2018-04-10T02:53:52.942Z - info: Execution took 20 ms, user function completed successfully
+2018-04-10T02:55:17.943Z - info: User function triggered, starting execution
+2018-04-10T02:55:17.963Z - info: Execution took 12 ms, user function completed successfully
+2018-04-10T02:55:27.485Z - info: User function triggered, starting execution
+2018-04-10T02:55:27.490Z - info: Execution took 3 ms, user function completed successfully
+2018-04-10T02:55:32.099Z - info: Worker for api closed due to file changes.
+2018-04-10T02:55:59.643Z - info: User function triggered, starting execution
+2018-04-10T02:55:59.659Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T02:55:59.852Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T02:56:32.749Z - info: Worker for api closed due to file changes.
+2018-04-10T02:57:05.041Z - info: User function triggered, starting execution
+2018-04-10T02:57:05.057Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T02:57:05.250Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T02:58:49.370Z - info: Worker for api closed due to file changes.
+2018-04-10T02:59:25.856Z - info: User function triggered, starting execution
+2018-04-10T02:59:25.867Z - info: diego
+2018-04-10T02:59:25.869Z - info: undefined
+2018-04-10T02:59:25.877Z - info: Execution took 22 ms, user function completed successfully
+2018-04-10T02:59:26.100Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:02:53.608Z - info: User function triggered, starting execution
+2018-04-10T03:02:53.617Z - info: diego
+2018-04-10T03:02:53.621Z - info: undefined
+2018-04-10T03:02:53.628Z - info: Execution took 20 ms, user function completed successfully
+2018-04-10T03:03:39.830Z - info: Worker for api closed due to file changes.
+2018-04-10T03:04:03.090Z - info: User function triggered, starting execution
+2018-04-10T03:04:03.100Z - info: diego
+2018-04-10T03:04:03.101Z - info: undefined
+2018-04-10T03:04:03.107Z - info: Execution took 18 ms, user function completed successfully
+2018-04-10T03:05:36.392Z - info: Worker for api closed due to file changes.
+2018-04-10T03:06:11.857Z - info: User function triggered, starting execution
+2018-04-10T03:06:11.864Z - info: diego
+2018-04-10T03:06:11.866Z - info: undefined
+2018-04-10T03:06:11.874Z - info: Execution took 18 ms, user function completed successfully
+2018-04-10T03:07:23.864Z - info: User function triggered, starting execution
+2018-04-10T03:07:23.870Z - info: diego
+2018-04-10T03:07:23.871Z - info: undefined
+2018-04-10T03:07:23.876Z - info: Execution took 13 ms, user function completed successfully
+2018-04-10T03:08:05.398Z - info: Worker for api closed due to file changes.
+2018-04-10T03:09:59.278Z - info: User function triggered, starting execution
+2018-04-10T03:09:59.295Z - info: diego
+undefined
+Execution took 11 ms, user function completed successfully
+2018-04-10T03:09:59.485Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:14:48.269Z - info: Worker for api closed due to file changes.
+2018-04-10T03:15:15.454Z - info: User function triggered, starting execution
+2018-04-10T03:15:15.660Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:16:15.444Z - info: Execution took 60005 ms, finished with status: 'timeout'
+2018-04-10T03:19:26.833Z - info: User function triggered, starting execution
+2018-04-10T03:19:28.721Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:20:26.819Z - info: Execution took 61604 ms, finished with status: 'timeout'
+2018-04-10T03:24:39.264Z - info: User function triggered, starting execution
+2018-04-10T03:24:39.289Z - info: diego
+2018-04-10T03:24:39.291Z - error: ReferenceError: lamp is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:26:17
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T03:24:39.357Z - info: Execution took 28 ms, user function completed successfully
+2018-04-10T03:24:39.489Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:25:51.057Z - info: User function triggered, starting execution
+2018-04-10T03:25:51.076Z - info: diego
+Execution took 21 ms, user function completed successfully
+2018-04-10T03:25:51.170Z - error: ReferenceError: lamp is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:26:17
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T03:25:51.266Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:27:28.844Z - info: Worker for api closed due to file changes.
+2018-04-10T03:27:28.867Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T03:28:25.417Z - info: User function triggered, starting execution
+2018-04-10T03:28:25.427Z - info: Execution took 8 ms, user function completed successfully
+2018-04-10T03:28:25.434Z - error: ReferenceError: lamp is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:17:44
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T03:37:31.408Z - info: Worker for api closed due to file changes.
+2018-04-10T03:37:31.456Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T03:39:09.548Z - info: User function triggered, starting execution
+2018-04-10T03:39:09.567Z - error: ReferenceError: lampara is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:17:44
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T03:39:09.569Z - info: Execution took 11 ms, user function completed successfully
+2018-04-10T03:40:58.558Z - info: Worker for api closed due to file changes.
+2018-04-10T03:40:58.607Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T03:41:33.141Z - info: User function triggered, starting execution
+2018-04-10T03:41:33.215Z - info: undefined
+Execution took 21 ms, user function completed successfully
+2018-04-10T03:41:33.352Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:44:42.516Z - info: Worker for api closed due to file changes.
+2018-04-10T03:49:17.252Z - info: User function triggered, starting execution
+2018-04-10T03:49:17.458Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:49:17.460Z - error: [2018-04-10T03:49:17.458Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. ReferenceError: lamapras is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:14:12
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14)
+    at Repo.onDataUpdate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\Repo.js:200:26)
+    at PersistentConnection.onDataPush_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\PersistentConnection.js:449:18)
+    at PersistentConnection.onDataMessage_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\PersistentConnection.js:443:18)
+    at Connection.onDataMessage_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\realtime\Connection.js:262:14) 
+2018-04-10T03:49:17.498Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+ReferenceError: lamapras is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\lamparas_controllers.js:14:12
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14)
+    at Repo.onDataUpdate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\Repo.js:200:26)
+    at PersistentConnection.onDataPush_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\PersistentConnection.js:449:18)
+    at PersistentConnection.onDataMessage_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\PersistentConnection.js:443:18)
+    at Connection.onDataMessage_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\realtime\Connection.js:262:14)
+2018-04-10T03:49:17.520Z - info: Execution took 284 ms, finished with status: 'crash'
+2018-04-10T03:49:17.711Z - error: Function worker crashed with exit code: 1
+2018-04-10T03:55:14.196Z - info: User function triggered, starting execution
+2018-04-10T03:55:14.207Z - info: diego
+2018-04-10T03:55:14.208Z - info: undefined
+2018-04-10T03:55:14.218Z - info: Execution took 20 ms, user function completed successfully
+2018-04-10T03:55:14.416Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:56:55.617Z - info: User function triggered, starting execution
+2018-04-10T03:56:55.649Z - info: Execution took 31 ms, user function completed successfully
+2018-04-10T03:56:55.661Z - error: ReferenceError: lamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:17:61
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T03:57:36.991Z - info: Worker for api closed due to file changes.
+2018-04-10T03:57:37.029Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T03:58:04.266Z - info: User function triggered, starting execution
+2018-04-10T03:58:04.281Z - info: diego
+2018-04-10T03:58:04.283Z - info: undefined
+2018-04-10T03:58:04.290Z - info: Execution took 24 ms, user function completed successfully
+2018-04-10T03:58:04.480Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T03:58:11.829Z - info: User function triggered, starting execution
+2018-04-10T03:58:11.831Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+2018-04-10T03:58:11.839Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 5 ms, user function completed successfully
+2018-04-10T03:58:26.874Z - info: User function triggered, starting execution
+2018-04-10T03:58:26.877Z - info: { '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '1': 'bulboff',
+  '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T03:58:45.837Z - info: Worker for api closed due to file changes.
+2018-04-10T04:07:49.040Z - info: User function triggered, starting execution
+2018-04-10T04:07:49.048Z - info: diego
+2018-04-10T04:07:49.049Z - info: undefined
+2018-04-10T04:07:49.055Z - info: Execution took 15 ms, user function completed successfully
+2018-04-10T04:08:11.391Z - info: User function triggered, starting execution
+2018-04-10T04:08:11.393Z - info: diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:08:11.396Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T04:08:21.186Z - info: User function triggered, starting execution
+2018-04-10T04:08:21.190Z - info: diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:08:25.783Z - info: User function triggered, starting execution
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:08:29.614Z - info: User function triggered, starting execution
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:08:31.556Z - info: User function triggered, starting execution
+2018-04-10T04:08:31.561Z - info: diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:10:17.852Z - info: Worker for api closed due to file changes.
+2018-04-10T04:10:42.736Z - info: User function triggered, starting execution
+2018-04-10T04:10:42.761Z - info: diego
+undefined
+Execution took 21 ms, user function completed successfully
+2018-04-10T04:11:40.535Z - info: Worker for api closed due to file changes.
+2018-04-10T04:12:03.740Z - info: User function triggered, starting execution
+2018-04-10T04:12:03.750Z - info: diego
+2018-04-10T04:12:03.752Z - info: undefined
+2018-04-10T04:12:03.759Z - info: Execution took 21 ms, user function completed successfully
+2018-04-10T04:12:46.764Z - info: Worker for api closed due to file changes.
+2018-04-10T04:13:18.741Z - info: User function triggered, starting execution
+2018-04-10T04:13:18.748Z - info: diego
+2018-04-10T04:13:18.750Z - info: undefined
+2018-04-10T04:13:18.755Z - info: Execution took 14 ms, user function completed successfully
+2018-04-10T04:14:08.016Z - info: Worker for api closed due to file changes.
+2018-04-10T04:14:31.097Z - info: User function triggered, starting execution
+2018-04-10T04:14:31.105Z - info: diego
+2018-04-10T04:14:31.108Z - info: undefined
+2018-04-10T04:14:31.115Z - info: Execution took 21 ms, user function completed successfully
+2018-04-10T04:15:17.410Z - info: Worker for api closed due to file changes.
+2018-04-10T04:15:50.144Z - info: User function triggered, starting execution
+2018-04-10T04:15:50.154Z - info: diego
+2018-04-10T04:15:50.156Z - info: undefined
+2018-04-10T04:15:50.166Z - info: Execution took 19 ms, user function completed successfully
+2018-04-10T04:15:50.170Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:16:33.734Z - info: Worker for api closed due to file changes.
+2018-04-10T04:16:33.755Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T04:17:52.134Z - info: User function triggered, starting execution
+2018-04-10T04:17:52.146Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:17:52.149Z - info: diego
+undefined
+Execution took 14 ms, user function completed successfully
+2018-04-10T04:17:52.338Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:18:01.613Z - info: User function triggered, starting execution
+2018-04-10T04:18:01.619Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:18:01.621Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 3 ms, user function completed successfully
+2018-04-10T04:18:11.966Z - info: User function triggered, starting execution
+2018-04-10T04:18:11.970Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:18:11.973Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:18:36.134Z - info: User function triggered, starting execution
+2018-04-10T04:18:36.135Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:18:36.137Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T04:18:36.137Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:18:55.530Z - info: User function triggered, starting execution
+2018-04-10T04:18:55.530Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:18:55.532Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T04:18:55.532Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:18:58.093Z - info: User function triggered, starting execution
+2018-04-10T04:18:58.095Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:18:58.097Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:18:58.098Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T04:19:00.636Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:19:00.639Z - error: ReferenceError: mislamparas is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+2018-04-10T04:19:45.277Z - info: Worker for api closed due to file changes.
+2018-04-10T04:19:45.329Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T04:20:18.662Z - info: User function triggered, starting execution
+2018-04-10T04:20:18.672Z - info: diego
+2018-04-10T04:20:18.686Z - info: undefined
+Execution took 23 ms, user function completed successfully
+2018-04-10T04:20:19.232Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:20:50.505Z - info: Worker for api closed due to file changes.
+2018-04-10T04:22:53.772Z - info: User function triggered, starting execution
+2018-04-10T04:22:53.784Z - info: diego
+2018-04-10T04:22:53.790Z - info: undefined
+2018-04-10T04:22:53.798Z - info: Execution took 29 ms, user function completed successfully
+2018-04-10T04:22:54.006Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:22.178Z - info: User function triggered, starting execution
+2018-04-10T04:24:22.186Z - info: diego
+2018-04-10T04:24:22.187Z - info: undefined
+2018-04-10T04:24:22.193Z - info: Execution took 16 ms, user function completed successfully
+2018-04-10T04:24:22.390Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:26.645Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:26.651Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T04:24:44.242Z - info: User function triggered, starting execution
+2018-04-10T04:24:44.243Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:44.245Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:24:46.110Z - info: User function triggered, starting execution
+2018-04-10T04:24:46.110Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:46.113Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T04:24:48.035Z - info: User function triggered, starting execution
+2018-04-10T04:24:48.037Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:24:50.410Z - info: User function triggered, starting execution
+2018-04-10T04:24:50.413Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:24:51.820Z - info: User function triggered, starting execution
+2018-04-10T04:24:51.821Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:24:51.823Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:25:49.541Z - info: User function triggered, starting execution
+2018-04-10T04:25:49.550Z - info: diego
+2018-04-10T04:25:49.551Z - info: undefined
+2018-04-10T04:25:49.557Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T04:25:49.753Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:26:07.756Z - info: User function triggered, starting execution
+2018-04-10T04:26:07.759Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:26:07.763Z - info: Execution took 4 ms, user function completed successfully
+2018-04-10T04:26:09.480Z - info: User function triggered, starting execution
+2018-04-10T04:26:09.482Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:26:10.410Z - info: User function triggered, starting execution
+2018-04-10T04:26:10.411Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:26:10.414Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:44:50.064Z - info: User function triggered, starting execution
+2018-04-10T04:44:50.082Z - info: diego
+undefined
+Execution took 17 ms, user function completed successfully
+2018-04-10T04:44:51.955Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:44:59.256Z - info: User function triggered, starting execution
+2018-04-10T04:44:59.261Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 4 ms, user function completed successfully
+2018-04-10T04:45:25.078Z - info: User function triggered, starting execution
+2018-04-10T04:45:25.079Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:45:25.082Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T04:45:27.811Z - info: User function triggered, starting execution
+2018-04-10T04:45:27.812Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+2018-04-10T04:45:27.812Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:45:27.814Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:45:30.923Z - info: User function triggered, starting execution
+2018-04-10T04:45:30.925Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+diego
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:46:44.031Z - info: Worker for api closed due to file changes.
+2018-04-10T04:54:09.953Z - info: User function triggered, starting execution
+2018-04-10T04:54:09.969Z - info: undefined
+Execution took 12 ms, user function completed successfully
+2018-04-10T04:54:10.163Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:54:13.507Z - info: User function triggered, starting execution
+2018-04-10T04:54:13.515Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 5 ms, user function completed successfully
+2018-04-10T04:54:15.991Z - info: User function triggered, starting execution
+2018-04-10T04:54:15.994Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:54:17.362Z - info: User function triggered, starting execution
+2018-04-10T04:54:17.366Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:54:18.817Z - info: User function triggered, starting execution
+2018-04-10T04:54:18.818Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:54:18.820Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:54:20.317Z - info: User function triggered, starting execution
+2018-04-10T04:54:20.325Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T04:55:28.957Z - info: User function triggered, starting execution
+2018-04-10T04:55:28.968Z - info: undefined
+2018-04-10T04:55:28.974Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T04:55:34.970Z - info: User function triggered, starting execution
+2018-04-10T04:55:34.974Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:55:34.977Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T04:55:40.227Z - info: User function triggered, starting execution
+2018-04-10T04:55:40.228Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:55:40.230Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T04:55:46.592Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T04:55:55.936Z - info: User function triggered, starting execution
+2018-04-10T04:55:55.937Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T04:55:55.938Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T05:00:37.443Z - info: Worker for api closed due to file changes.
+2018-04-10T05:01:00.715Z - info: User function triggered, starting execution
+2018-04-10T05:01:00.725Z - info: undefined
+undefined
+2018-04-10T05:01:00.732Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T05:01:12.345Z - info: User function triggered, starting execution
+2018-04-10T05:01:12.347Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T05:01:12.348Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T05:01:12.353Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T05:01:21.588Z - info: User function triggered, starting execution
+2018-04-10T05:01:21.589Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T05:01:21.590Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T05:01:21.591Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T05:01:23.255Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 3 ms, user function completed successfully
+2018-04-10T05:03:31.465Z - info: User function triggered, starting execution
+2018-04-10T05:03:31.475Z - info: undefined
+undefined
+2018-04-10T05:03:31.481Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T05:03:37.985Z - info: User function triggered, starting execution
+2018-04-10T05:03:37.995Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 8 ms, user function completed successfully
+2018-04-10T05:59:57.009Z - info: User function triggered, starting execution
+2018-04-10T05:59:57.019Z - info: undefined
+2018-04-10T05:59:57.019Z - info: undefined
+2018-04-10T05:59:57.025Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T06:02:23.141Z - info: User function triggered, starting execution
+2018-04-10T06:02:23.350Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T06:02:23.363Z - info: Execution took 224 ms, user function completed successfully
+2018-04-10T06:02:35.254Z - info: User function triggered, starting execution
+2018-04-10T06:02:35.255Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T06:02:35.259Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T06:02:39.336Z - info: User function triggered, starting execution
+2018-04-10T06:02:39.343Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 2 ms, user function completed successfully
+2018-04-10T06:02:40.492Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T06:02:42.609Z - info: User function triggered, starting execution
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 1 ms, user function completed successfully
+2018-04-10T06:03:23.423Z - info: Worker for api closed due to file changes.
+2018-04-10T06:03:50.650Z - info: User function triggered, starting execution
+2018-04-10T06:03:50.661Z - info: undefined
+2018-04-10T06:03:50.662Z - info: undefined
+2018-04-10T06:03:50.670Z - info: Execution took 19 ms, user function completed successfully
+2018-04-10T06:03:53.313Z - info: User function triggered, starting execution
+2018-04-10T06:03:53.338Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+{ '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+Execution took 11 ms, user function completed successfully
+2018-04-10T06:20:08.603Z - info: User function triggered, starting execution
+2018-04-10T06:20:08.808Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T06:20:08.816Z - info: Execution took 214 ms, user function completed successfully
+2018-04-10T06:24:56.735Z - info: Worker for api closed due to file changes.
+2018-04-10T06:26:33.536Z - info: User function triggered, starting execution
+2018-04-10T06:26:35.196Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T06:26:35.203Z - info: Execution took 1669 ms, user function completed successfully
+2018-04-10T06:26:38.624Z - info: User function triggered, starting execution
+2018-04-10T06:26:38.827Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' } }
+2018-04-10T06:26:38.833Z - info: Execution took 210 ms, user function completed successfully
+2018-04-10T06:26:51.172Z - info: User function triggered, starting execution
+2018-04-10T06:26:51.179Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' },
+  '-L9iE4PzAAuLchVNGDtM': { estado: 'bulboff' } }
+2018-04-10T06:26:51.181Z - info: Execution took 9 ms, user function completed successfully
+2018-04-10T06:26:51.182Z - error: [2018-04-10T06:26:51.183Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:20:19
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T06:26:51.186Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:20:19
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T06:26:51.224Z - error: Function worker crashed with exit code: 1
+2018-04-10T06:26:51.366Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' },
+  '-L9iE4PzAAuLchVNGDtM': { estado: 'bulboff' } }
+2018-04-10T06:26:51.368Z - error: [2018-04-10T06:26:51.369Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:20:19
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T06:26:51.371Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:20:19
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T06:26:51.384Z - error: Function worker crashed with exit code: 1
+2018-04-10T06:28:35.792Z - info: User function triggered, starting execution
+2018-04-10T06:29:15.201Z - info: User function triggered, starting execution
+2018-04-10T06:29:15.412Z - info: { '-L9djjfCEaSEK3jECNlY': { estado: 'bulboff' },
+  '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9gc-dN2KkBS1YUWiVE': { estado: 'bulboff' },
+  '-L9gdONGSlyzaoWAFtIF': { estado: 'bulboff' },
+  '-L9iE4PzAAuLchVNGDtM': { estado: 'bulboff' },
+  '-L9iETxfoZEI2hvex3Jk': { estado: 'bulboff' } }
+2018-04-10T06:29:15.419Z - info: Execution took 217 ms, user function completed successfully
+2018-04-10T06:29:35.789Z - info: Execution took 60008 ms, finished with status: 'timeout'
+2018-04-10T06:31:42.344Z - info: User function triggered, starting execution
+2018-04-10T06:31:42.363Z - info: Execution took 20 ms, user function completed successfully
+2018-04-10T06:32:00.678Z - info: Worker for api closed due to file changes.
+2018-04-10T06:32:31.662Z - info: User function triggered, starting execution
+2018-04-10T06:32:31.683Z - info: Execution took 19 ms, user function completed successfully
+2018-04-10T06:40:44.978Z - info: Worker for api closed due to file changes.
+2018-04-10T06:46:09.083Z - info: Worker for api closed due to file changes.
+2018-04-10T06:46:36.984Z - info: User function triggered, starting execution
+2018-04-10T06:46:36.998Z - info: Execution took 12 ms, user function completed successfully
+2018-04-10T06:48:27.092Z - info: Worker for api closed due to file changes.
+2018-04-10T06:48:45.967Z - info: User function triggered, starting execution
+2018-04-10T06:48:45.980Z - info: Execution took 13 ms, user function completed successfully
+2018-04-10T06:49:05.338Z - info: User function triggered, starting execution
+2018-04-10T06:49:05.343Z - info: Execution took 3 ms, user function completed successfully
+2018-04-10T06:49:14.354Z - info: User function triggered, starting execution
+2018-04-10T06:49:14.357Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T06:55:34.039Z - info: User function triggered, starting execution
+2018-04-10T06:55:34.056Z - info: Execution took 11 ms, user function completed successfully
+2018-04-10T06:56:08.955Z - info: Worker for api closed due to file changes.
+2018-04-10T06:57:04.663Z - info: User function triggered, starting execution
+2018-04-10T06:57:04.670Z - info: Execution took 7 ms, user function completed successfully
+2018-04-10T06:59:15.747Z - info: User function triggered, starting execution
+2018-04-10T06:59:15.950Z - info: Execution took 203 ms, user function completed successfully
+2018-04-10T06:59:21.297Z - info: User function triggered, starting execution
+2018-04-10T06:59:21.300Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T07:05:08.342Z - info: Worker for api closed due to file changes.
+2018-04-10T07:06:41.011Z - info: User function triggered, starting execution
+2018-04-10T07:06:41.025Z - info: Execution took 12 ms, user function completed successfully
+2018-04-10T07:11:16.084Z - info: Worker for api closed due to file changes.
+2018-04-10T07:12:28.066Z - info: User function triggered, starting execution
+2018-04-10T07:12:28.077Z - info: Execution took 12 ms, user function completed successfully
+2018-04-10T07:12:28.078Z - error: ReferenceError: request is not defined
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:45:14
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+2018-04-10T07:16:18.075Z - info: Worker for api closed due to file changes.
+2018-04-10T07:16:18.160Z - error: Function worker killed by signal: SIGTERM
+2018-04-10T07:16:40.631Z - info: User function triggered, starting execution
+2018-04-10T07:16:40.644Z - info: Execution took 14 ms, user function completed successfully
+2018-04-10T07:43:09.623Z - info: User function triggered, starting execution
+2018-04-10T07:43:11.682Z - info: Execution took 2059 ms, user function completed successfully
+2018-04-10T07:43:14.233Z - info: User function triggered, starting execution
+2018-04-10T07:43:14.236Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T07:43:37.310Z - error: [2018-04-10T07:43:37.309Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T07:43:37.315Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T07:43:37.335Z - error: Function worker crashed with exit code: 1
+2018-04-10T07:44:22.857Z - info: Execution took 1006 ms, finished with status: 'crash'
+2018-04-10T07:45:19.790Z - info: User function triggered, starting execution
+2018-04-10T07:45:21.386Z - info: Execution took 1596 ms, user function completed successfully
+2018-04-10T08:14:06.492Z - info: User function triggered, starting execution
+2018-04-10T08:14:06.703Z - info: Execution took 210 ms, user function completed successfully
+2018-04-10T08:14:12.923Z - info: User function triggered, starting execution
+2018-04-10T08:14:12.929Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T08:14:13.342Z - info: User function triggered, starting execution
+2018-04-10T08:14:13.344Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T08:15:14.056Z - info: Worker for api closed due to file changes.
+2018-04-10T08:18:43.023Z - info: User function triggered, starting execution
+Execution took 12 ms, user function completed successfully
+2018-04-10T08:18:43.272Z - info: User function triggered, starting execution
+2018-04-10T08:18:43.277Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T08:39:33.478Z - info: User function triggered, starting execution
+2018-04-10T08:39:33.690Z - info: Execution took 214 ms, user function completed successfully
+2018-04-10T08:41:15.995Z - info: User function triggered, starting execution
+2018-04-10T08:41:15.998Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T08:42:51.397Z - info: User function triggered, starting execution
+2018-04-10T08:42:51.601Z - info: Execution took 206 ms, user function completed successfully
+2018-04-10T08:43:22.635Z - info: User function triggered, starting execution
+2018-04-10T08:43:24.234Z - info: Execution took 1581 ms, user function completed successfully
+2018-04-10T08:44:14.856Z - info: User function triggered, starting execution
+2018-04-10T08:44:15.063Z - info: Execution took 221 ms, user function completed successfully
+2018-04-10T08:44:35.958Z - info: User function triggered, starting execution
+2018-04-10T08:44:35.968Z - info: Execution took 4 ms, user function completed successfully
+2018-04-10T08:44:39.234Z - info: User function triggered, starting execution
+2018-04-10T08:44:39.240Z - info: Execution took 3 ms, user function completed successfully
+2018-04-10T08:44:41.751Z - info: User function triggered, starting execution
+2018-04-10T08:44:41.755Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T08:45:50.948Z - info: User function triggered, starting execution
+2018-04-10T08:45:51.171Z - info: Execution took 218 ms, user function completed successfully
+2018-04-10T08:47:34.775Z - info: User function triggered, starting execution
+2018-04-10T08:47:35.043Z - info: Execution took 271 ms, user function completed successfully
+2018-04-10T08:52:33.138Z - info: User function triggered, starting execution
+2018-04-10T08:52:33.356Z - info: Execution took 219 ms, user function completed successfully
+2018-04-10T08:59:27.547Z - info: User function triggered, starting execution
+2018-04-10T08:59:27.753Z - info: Execution took 210 ms, user function completed successfully
+2018-04-10T09:04:47.930Z - info: User function triggered, starting execution
+2018-04-10T09:04:48.141Z - info: Execution took 212 ms, user function completed successfully
+2018-04-10T09:05:52.222Z - info: User function triggered, starting execution
+2018-04-10T09:05:52.442Z - info: Execution took 225 ms, user function completed successfully
+2018-04-10T09:06:05.115Z - error: [2018-04-10T09:06:05.112Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T09:06:05.119Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T09:06:05.152Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:06:12.868Z - info: Execution took 1029 ms, finished with status: 'crash'
+2018-04-10T09:06:14.424Z - info: User function triggered, starting execution
+2018-04-10T09:06:14.442Z - info: Execution took 19 ms, user function completed successfully
+2018-04-10T09:06:49.898Z - info: User function triggered, starting execution
+2018-04-10T09:06:50.116Z - info: Execution took 217 ms, user function completed successfully
+2018-04-10T09:07:24.188Z - error: [2018-04-10T09:07:24.189Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T09:07:24.190Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:16
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T09:07:24.242Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:07:59.401Z - info: Execution took 1005 ms, finished with status: 'crash'
+2018-04-10T09:08:01.279Z - info: User function triggered, starting execution
+Execution took 10 ms, user function completed successfully
+2018-04-10T09:08:05.773Z - info: User function triggered, starting execution
+2018-04-10T09:08:05.975Z - info: Execution took 201 ms, user function completed successfully
+2018-04-10T09:13:50.472Z - info: User function triggered, starting execution
+2018-04-10T09:13:50.553Z - error: Error: Query.on failed: First argument must be a valid event type = "value", "child_added", "child_removed", "child_changed", or "child_moved".
+    at Object.exports.validateEventType (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\validation.js:263:19)
+    at Reference.Query.on (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\api\Query.js:157:22)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\router\index.js:275:10)
+2018-04-10T09:13:50.568Z - info: Execution took 20 ms, user function completed successfully
+2018-04-10T09:13:50.678Z - error: [2018-04-10T09:13:50.678Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T09:13:50.680Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T09:13:50.694Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:15:35.727Z - info: User function triggered, starting execution
+2018-04-10T09:15:35.944Z - info: Execution took 218 ms, user function completed successfully
+2018-04-10T09:16:00.841Z - error: [2018-04-10T09:16:00.842Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:23:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:169:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41) 
+2018-04-10T09:16:00.844Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:267:15)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:23:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:169:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+2018-04-10T09:16:00.861Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:19:20.912Z - info: User function triggered, starting execution
+2018-04-10T09:19:20.933Z - info: Execution took 17 ms, user function completed successfully
+2018-04-10T09:19:21.188Z - error: [2018-04-10T09:19:21.186Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:264:10)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14) 
+2018-04-10T09:19:21.225Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:19:21.232Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:264:10)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14)
+2018-04-10T09:20:46.427Z - info: User function triggered, starting execution
+2018-04-10T09:20:46.463Z - info: Execution took 16 ms, user function completed successfully
+2018-04-10T09:20:46.635Z - error: [2018-04-10T09:20:46.636Z]  @firebase/database: FIREBASE WARNING: Exception was thrown by user callback. Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:264:10)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14) 
+2018-04-10T09:20:46.637Z - error: C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:547
+            throw e;
+            ^
+
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:494:11)
+    at ServerResponse.setHeader (_http_outgoing.js:501:3)
+    at ServerResponse.header (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.json (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\express\lib\response.js:264:10)
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\index.js:19:18
+    at C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventRegistration.js:65:22
+    at Object.exports.exceptionGuard (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\util\util.js:536:9)
+    at EventList.raise (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:158:24)
+    at EventQueue.raiseQueuedEventsMatchingPredicate_ (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:111:41)
+    at EventQueue.raiseEventsForChangedPath (C:\Users\Diego\Desktop\ATI\proyecto-ati-v2\functions\node_modules\@firebase\database\dist\cjs\src\core\view\EventQueue.js:95:14)
+2018-04-10T09:20:46.651Z - error: Function worker crashed with exit code: 1
+2018-04-10T09:22:17.841Z - info: User function triggered, starting execution
+2018-04-10T09:22:19.607Z - info: Execution took 1345 ms, user function completed successfully
+2018-04-10T09:23:50.083Z - info: Worker for api closed due to file changes.
+2018-04-10T09:24:16.183Z - info: User function triggered, starting execution
+2018-04-10T09:24:16.405Z - info: Execution took 222 ms, user function completed successfully
+2018-04-10T09:24:22.528Z - info: User function triggered, starting execution
+2018-04-10T09:24:22.718Z - info: Execution took 187 ms, user function completed successfully
+2018-04-10T09:24:59.819Z - info: User function triggered, starting execution
+2018-04-10T09:25:00.008Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T09:51:08.755Z - info: User function triggered, starting execution
+2018-04-10T09:51:14.129Z - info: Execution took 5390 ms, user function completed successfully
+2018-04-10T09:51:34.200Z - info: User function triggered, starting execution
+2018-04-10T09:51:34.418Z - info: Execution took 217 ms, user function completed successfully
+2018-04-10T10:11:18.821Z - info: User function triggered, starting execution
+2018-04-10T10:11:19.038Z - info: Execution took 216 ms, user function completed successfully
+2018-04-10T10:13:52.280Z - info: User function triggered, starting execution
+2018-04-10T10:13:52.526Z - info: Execution took 245 ms, user function completed successfully
+2018-04-10T10:15:16.233Z - info: User function triggered, starting execution
+2018-04-10T10:15:16.449Z - info: Execution took 216 ms, user function completed successfully
+2018-04-10T10:18:32.894Z - info: User function triggered, starting execution
+2018-04-10T10:18:33.108Z - info: Execution took 215 ms, user function completed successfully
+2018-04-10T10:19:09.881Z - info: User function triggered, starting execution
+2018-04-10T10:19:10.114Z - info: Execution took 233 ms, user function completed successfully
+2018-04-10T10:19:12.192Z - info: User function triggered, starting execution
+2018-04-10T10:19:12.207Z - info: Execution took 12 ms, user function completed successfully
+2018-04-10T10:22:21.282Z - info: User function triggered, starting execution
+2018-04-10T10:22:21.295Z - info: Execution took 14 ms, user function completed successfully
+2018-04-10T10:23:02.863Z - info: User function triggered, starting execution
+2018-04-10T10:23:03.080Z - info: Execution took 217 ms, user function completed successfully
+2018-04-10T10:23:05.392Z - info: User function triggered, starting execution
+2018-04-10T10:23:05.400Z - info: Execution took 7 ms, user function completed successfully
+2018-04-10T10:23:08.714Z - info: User function triggered, starting execution
+2018-04-10T10:23:08.718Z - info: Execution took 3 ms, user function completed successfully
+2018-04-10T10:23:09.835Z - info: User function triggered, starting execution
+2018-04-10T10:23:09.837Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:23:10.354Z - info: User function triggered, starting execution
+2018-04-10T10:23:10.356Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:23:22.107Z - info: User function triggered, starting execution
+2018-04-10T10:23:22.534Z - info: Execution took 426 ms, user function completed successfully
+2018-04-10T10:24:13.234Z - info: User function triggered, starting execution
+2018-04-10T10:24:15.010Z - info: Execution took 1781 ms, user function completed successfully
+2018-04-10T10:24:49.450Z - info: User function triggered, starting execution
+2018-04-10T10:24:50.998Z - info: Execution took 1548 ms, user function completed successfully
+2018-04-10T10:25:11.891Z - info: User function triggered, starting execution
+2018-04-10T10:25:12.088Z - info: Execution took 194 ms, user function completed successfully
+2018-04-10T10:25:39.707Z - info: User function triggered, starting execution
+2018-04-10T10:25:39.898Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:25:44.020Z - info: User function triggered, starting execution
+2018-04-10T10:25:44.027Z - info: Execution took 6 ms, user function completed successfully
+2018-04-10T10:26:01.131Z - info: User function triggered, starting execution
+2018-04-10T10:26:01.318Z - info: Execution took 186 ms, user function completed successfully
+2018-04-10T10:26:15.546Z - info: User function triggered, starting execution
+2018-04-10T10:26:15.550Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:27:16.573Z - info: User function triggered, starting execution
+2018-04-10T10:27:16.782Z - info: Execution took 211 ms, user function completed successfully
+2018-04-10T10:27:29.267Z - info: User function triggered, starting execution
+2018-04-10T10:27:29.274Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T10:29:50.814Z - info: User function triggered, starting execution
+2018-04-10T10:29:51.041Z - info: Execution took 228 ms, user function completed successfully
+2018-04-10T10:29:56.017Z - info: User function triggered, starting execution
+2018-04-10T10:29:56.025Z - info: Execution took 9 ms, user function completed successfully
+2018-04-10T10:30:44.698Z - info: User function triggered, starting execution
+2018-04-10T10:30:44.892Z - info: Execution took 192 ms, user function completed successfully
+2018-04-10T10:31:47.064Z - info: User function triggered, starting execution
+2018-04-10T10:31:47.288Z - info: Execution took 226 ms, user function completed successfully
+2018-04-10T10:31:53.045Z - info: User function triggered, starting execution
+2018-04-10T10:31:53.079Z - info: User function triggered, starting execution
+2018-04-10T10:31:53.091Z - info: Execution took 10 ms, user function completed successfully
+2018-04-10T10:31:53.237Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:32:30.708Z - info: User function triggered, starting execution
+2018-04-10T10:32:30.899Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:34:02.695Z - info: User function triggered, starting execution
+2018-04-10T10:34:02.903Z - info: Execution took 210 ms, user function completed successfully
+2018-04-10T10:34:09.017Z - info: User function triggered, starting execution
+2018-04-10T10:34:09.026Z - info: Execution took 8 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:34:09.216Z - info: Execution took 189 ms, user function completed successfully
+2018-04-10T10:34:17.377Z - info: User function triggered, starting execution
+2018-04-10T10:34:17.380Z - info: Execution took 2 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:34:17.575Z - info: Execution took 191 ms, user function completed successfully
+2018-04-10T10:34:19.066Z - info: User function triggered, starting execution
+2018-04-10T10:34:19.134Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:34:19.367Z - info: User function triggered, starting execution
+2018-04-10T10:34:19.559Z - info: Execution took 191 ms, user function completed successfully
+2018-04-10T10:35:51.416Z - info: User function triggered, starting execution
+2018-04-10T10:35:51.625Z - info: Execution took 209 ms, user function completed successfully
+2018-04-10T10:35:53.320Z - info: User function triggered, starting execution
+2018-04-10T10:35:53.325Z - info: Execution took 2 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:35:53.519Z - info: Execution took 191 ms, user function completed successfully
+2018-04-10T10:36:05.726Z - info: User function triggered, starting execution
+2018-04-10T10:36:05.734Z - info: Execution took 1 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:36:05.921Z - info: Execution took 192 ms, user function completed successfully
+2018-04-10T10:36:36.990Z - info: User function triggered, starting execution
+2018-04-10T10:36:36.991Z - info: Execution took 0 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:36:37.181Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:37:26.387Z - info: User function triggered, starting execution
+2018-04-10T10:37:26.677Z - info: Execution took 290 ms, user function completed successfully
+2018-04-10T10:37:27.829Z - info: User function triggered, starting execution
+2018-04-10T10:37:27.837Z - info: Execution took 6 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:37:28.795Z - info: Execution took 957 ms, user function completed successfully
+2018-04-10T10:37:33.727Z - info: User function triggered, starting execution
+2018-04-10T10:37:33.731Z - info: Execution took 2 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:37:33.922Z - info: Execution took 189 ms, user function completed successfully
+2018-04-10T10:37:37.890Z - info: User function triggered, starting execution
+2018-04-10T10:37:37.892Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:37:37.903Z - info: User function triggered, starting execution
+2018-04-10T10:37:38.092Z - info: Execution took 187 ms, user function completed successfully
+2018-04-10T10:37:40.529Z - info: User function triggered, starting execution
+2018-04-10T10:37:40.532Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:37:40.829Z - info: User function triggered, starting execution
+2018-04-10T10:37:41.019Z - info: Execution took 189 ms, user function completed successfully
+2018-04-10T10:37:43.268Z - info: User function triggered, starting execution
+2018-04-10T10:37:43.270Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:37:43.272Z - info: User function triggered, starting execution
+2018-04-10T10:37:43.464Z - info: Execution took 192 ms, user function completed successfully
+2018-04-10T10:37:44.944Z - info: User function triggered, starting execution
+2018-04-10T10:37:44.946Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:37:45.246Z - info: User function triggered, starting execution
+2018-04-10T10:37:45.437Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:37:47.383Z - info: User function triggered, starting execution
+2018-04-10T10:37:47.386Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:37:47.389Z - info: User function triggered, starting execution
+2018-04-10T10:37:47.576Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:37:48.786Z - info: User function triggered, starting execution
+2018-04-10T10:37:48.788Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:37:49.084Z - info: User function triggered, starting execution
+2018-04-10T10:37:49.273Z - info: Execution took 187 ms, user function completed successfully
+2018-04-10T10:37:50.439Z - info: User function triggered, starting execution
+2018-04-10T10:37:50.443Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:37:50.457Z - info: User function triggered, starting execution
+2018-04-10T10:37:50.732Z - info: Execution took 273 ms, user function completed successfully
+2018-04-10T10:43:05.956Z - info: User function triggered, starting execution
+2018-04-10T10:43:06.172Z - info: Execution took 224 ms, user function completed successfully
+2018-04-10T10:43:09.742Z - info: User function triggered, starting execution
+2018-04-10T10:43:09.750Z - info: Execution took 5 ms, user function completed successfully
+2018-04-10T10:43:18.508Z - info: User function triggered, starting execution
+2018-04-10T10:43:18.514Z - info: Execution took 3 ms, user function completed successfully
+2018-04-10T10:45:17.220Z - info: User function triggered, starting execution
+2018-04-10T10:45:17.433Z - info: Execution took 213 ms, user function completed successfully
+2018-04-10T10:45:45.075Z - info: User function triggered, starting execution
+2018-04-10T10:45:45.083Z - info: Execution took 8 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:45:45.281Z - info: Execution took 196 ms, user function completed successfully
+2018-04-10T10:45:48.750Z - info: User function triggered, starting execution
+2018-04-10T10:45:48.756Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:45:49.047Z - info: User function triggered, starting execution
+2018-04-10T10:45:49.237Z - info: Execution took 189 ms, user function completed successfully
+2018-04-10T10:45:51.889Z - info: User function triggered, starting execution
+2018-04-10T10:45:51.895Z - info: Execution took 4 ms, user function completed successfully
+2018-04-10T10:46:08.013Z - info: User function triggered, starting execution
+2018-04-10T10:46:08.202Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:48:41.727Z - info: User function triggered, starting execution
+2018-04-10T10:48:41.949Z - info: Execution took 222 ms, user function completed successfully
+2018-04-10T10:48:47.668Z - info: User function triggered, starting execution
+2018-04-10T10:48:47.678Z - info: Execution took 6 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:48:47.874Z - info: Execution took 195 ms, user function completed successfully
+2018-04-10T10:48:49.412Z - info: User function triggered, starting execution
+2018-04-10T10:48:49.416Z - info: Execution took 3 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:48:49.602Z - info: Execution took 186 ms, user function completed successfully
+2018-04-10T10:49:36.141Z - info: User function triggered, starting execution
+2018-04-10T10:49:36.366Z - info: Execution took 224 ms, user function completed successfully
+2018-04-10T10:49:42.590Z - info: User function triggered, starting execution
+2018-04-10T10:49:42.615Z - info: User function triggered, starting execution
+2018-04-10T10:49:42.623Z - info: Execution took 6 ms, user function completed successfully
+2018-04-10T10:49:42.783Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:49:48.814Z - info: User function triggered, starting execution
+2018-04-10T10:49:48.817Z - info: Execution took 2 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:49:49.011Z - info: Execution took 194 ms, user function completed successfully
+2018-04-10T10:49:50.195Z - info: User function triggered, starting execution
+2018-04-10T10:49:50.198Z - info: Execution took 4 ms, user function completed successfully
+2018-04-10T10:49:50.485Z - info: User function triggered, starting execution
+2018-04-10T10:49:50.674Z - info: Execution took 187 ms, user function completed successfully
+2018-04-10T10:49:51.613Z - info: User function triggered, starting execution
+2018-04-10T10:49:51.617Z - info: Execution took 1 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:49:51.809Z - info: Execution took 192 ms, user function completed successfully
+2018-04-10T10:49:52.334Z - info: User function triggered, starting execution
+2018-04-10T10:49:52.524Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:49:53.661Z - info: User function triggered, starting execution
+2018-04-10T10:49:53.731Z - info: Execution took 2 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:49:53.919Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:49:54.299Z - info: User function triggered, starting execution
+2018-04-10T10:49:54.307Z - info: Execution took 2 ms, user function completed successfully
+2018-04-10T10:49:54.594Z - info: User function triggered, starting execution
+2018-04-10T10:49:54.787Z - info: Execution took 192 ms, user function completed successfully
+2018-04-10T10:49:55.485Z - info: User function triggered, starting execution
+Execution took 2 ms, user function completed successfully
+2018-04-10T10:49:55.490Z - info: User function triggered, starting execution
+2018-04-10T10:49:55.680Z - info: Execution took 189 ms, user function completed successfully
+2018-04-10T10:49:56.080Z - info: User function triggered, starting execution
+2018-04-10T10:49:56.082Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:49:56.377Z - info: User function triggered, starting execution
+2018-04-10T10:49:56.566Z - info: Execution took 188 ms, user function completed successfully
+2018-04-10T10:49:57.232Z - info: User function triggered, starting execution
+2018-04-10T10:49:57.419Z - info: Execution took 186 ms, user function completed successfully
+2018-04-10T10:49:58.054Z - info: User function triggered, starting execution
+2018-04-10T10:49:58.057Z - info: Execution took 1 ms, user function completed successfully
+2018-04-10T10:49:58.353Z - info: User function triggered, starting execution
+2018-04-10T10:49:58.543Z - info: Execution took 190 ms, user function completed successfully
+2018-04-10T10:49:59.146Z - info: User function triggered, starting execution
+2018-04-10T10:49:59.150Z - info: Execution took 1 ms, user function completed successfully
+User function triggered, starting execution
+2018-04-10T10:49:59.934Z - info: Execution took 785 ms, user function completed successfully
+2018-04-10T13:30:02.187Z - info: User function triggered, starting execution
+2018-04-10T13:30:02.204Z - info: Execution took 10 ms, user function completed successfully
+2018-04-10T13:30:28.917Z - info: User function triggered, starting execution
+2018-04-10T13:30:29.136Z - info: { '-L9gZg_uphIkryDFhRHU': { estado: 'bulboff' },
+  '-L9jAIeYmyrGLvskkG9j': { estado: 'bulboff' },
+  '-L9jAIvba_cxQPNWacQi': { estado: 'bulboff' } }
+2018-04-10T13:30:29.141Z - info: Execution took 224 ms, user function completed successfully
+2018-04-10T13:31:15.140Z - info: Worker for api closed due to file changes.

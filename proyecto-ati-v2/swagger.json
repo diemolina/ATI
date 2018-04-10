@@ -1,0 +1,71 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.2",
+    "description": "Proyecto ATI - Lamparas",
+    "title": "UTN FRLP - Actualización Tecnología e Innovación"
+  },
+  "schemes": [
+    "https"
+  ],
+  "host": "proyecto-ati-v2.firebaseapp.com",
+  "basePath": "/",
+  "paths": {
+    "/api/lamparas": {
+      "get": {
+        "summary": "Obtiene la coleccion de lamparas de Firebase",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "format",
+            "type": "string",
+            "description": "El formato de retorno es json",
+            "default": "json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Obtiene todas las lamparas exitosamente",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "estado": {
+                  "type": "string",
+                  "example": "bulbon"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Crea una lampara apagada en la base de datos",
+        "responses": {
+          "200": {
+            "description": "Agrega una lampara con la funcion push de Firebase exitosamente"
+          }
+        }
+      }
+    },
+    "/api/lamparas/:id/:estado": {
+      "put": {
+        "summary": "Modifica el estado de la lampara",
+        "responses": {
+          "200": {
+            "description": "Respuesta exitosa de la actualizacion en la base"
+          }
+        }
+      }
+    },
+    "/api/lamparas/:id": {
+      "delete": {
+        "summary": "Elimina una lampara",
+        "responses": {
+          "200": {
+            "description": "Elimina una lampara de Firebase exitosamente"
+          }
+        }
+      }
+    }
+  }
+}
